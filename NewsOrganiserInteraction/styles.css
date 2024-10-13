@@ -1,0 +1,109 @@
+body {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#keywordInput {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    padding-left: 2%;
+}
+
+header {
+    background-color: #fefefe;
+    border-bottom: 3px solid #333;
+    color: #333;
+    padding: 0.7em;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    border: 1px solid #ced4da;
+    border-radius: 0;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: 'Georgia', serif;
+    line-height: 1.5;
+}
+
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: none;
+    outline: none;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1em;
+    border: 1px solid #333;
+    border-radius: 2px;
+    background-color: #fffefe;
+    color: #444;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Georgia', serif;    
+}
+
+button:hover {
+    background-color: #444;
+    color: white;
+}
+
+button:active {
+    background-color: #1e7e34;
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fefefe;
+    border: 2px solid #fefefe;
+}
+
+#resultOutput {
+    border: 2px solid #000000;
+    background-color: #fefefe;
+    max-height: 17em; 
+    overflow-y: auto;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    text-align: center;
+}
